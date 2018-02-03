@@ -14,6 +14,9 @@ export default {
   }
 }
 </script>
+<<<<<<< HEAD
 
+=======
+>>>>>>> commit s2
 <style>
 </style>

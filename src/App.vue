@@ -8,11 +8,14 @@
     <router-view name="modA" />
 
     <router-view name="modB" />
-
     <keep-alive>
       <router-view name="modC" />
     </keep-alive>
-
+    <!-- <transition enter-active-class="animated zoomInLeft" leave-active-class="animated zoomInLeft">
+          <keep-alive>
+            <router-view name="modC" />
+          </keep-alive>
+    </transition> -->
     <router-view name="modD" />
   </div>
 </template>
